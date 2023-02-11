@@ -1,0 +1,31 @@
+{
+  "name": "botchatgpt",
+  "version": "1.0.0",
+  "description": "bot chat gpt using nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nustvondev/botchatgpt.git"
+  },
+  "keywords": [
+    "nodejs",
+    "chatgpt",
+    "mongodb"
+  ],
+  "author": "nikolavjet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nustvondev/botchatgpt/issues"
+  },
+  "homepage": "https://github.com/nustvondev/botchatgpt#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "mongoose": "^6.9.1",
+    "node-telegram-bot-api": "^0.61.0",
+    "nodemon": "^2.0.20",
+    "openai": "^3.1.0"
+  }
+}
